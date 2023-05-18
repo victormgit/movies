@@ -1,12 +1,12 @@
 const data =
-[ ["Passage de Venus",1874,"P.J.C. Janssen","https://en.wikipedia.org/wiki/Passage_de_V%C3%A9nus","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/1874_Pierre_Jules_C%C3%A9sar_Janssen_-_Passage_de_Venus.webm/220px--1874_Pierre_Jules_C%C3%A9sar_Janssen_-_Passage_de_Venus.webm.jpg"
+[ ["Passage de Venus",1874,"P.J.C. Janssen","https://en.wikipedia.org/wiki/Passage_de_V%C3%A9nus",""
 ],["Dzing. Boom. Boom!",1877,"Émile Reynaud","",""
 ],["La Rosace Magique",1877,"Émile Reynaud","",""
 ],["Skipping Rope",1877,"Émile Reynaud","",""
 ],["The Tight-rope Dance",1877,"Émile Reynaud","",""
 ],["Le singe musicien",1878,"Émile Reynaud","",""
 ],["Les Chiens Savants",1878,"Émile Reynaud","",""
-],["Sallie Gardner at a Gallop",1878,"Eadweard Muybridge | Stars: Gilbert Domm, Sallie Gardner","",""
+],["Sallie Gardner at a Gallop",1878,"Eadweard Muybridge | Stars: Gilbert Domm, Sallie Gardner","https://en.wikipedia.org/wiki/The_Horse_in_Motion","https://upload.wikimedia.org/wikipedia/commons/0/0b/Eadweard_Muybridge-Sallie_Gardner_1878.jpg"
 ] ];
 let content = "";
 for (let i = 0; i < data.length; i++) {content +=
