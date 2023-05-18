@@ -16,6 +16,8 @@ for (let i = 0; i < data.length; i++) {content +=
     '<p>' + data[i][0] + '</p>' +
     '<p>' + data[i][1] + '</p>' +
     '<p>' + data[i][2] + '</p>' +
+    '<a href="https://www.google.com/search?q=' + data[i][0] + ' (' + data[i][1] + ')" target="_blank">Link</a><br>' +
+    '<a href="' + data[i][3] + '" target="_blank">Link</a>' +
   '</section>' +
 '</div>';
 };
