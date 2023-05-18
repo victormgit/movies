@@ -1,12 +1,12 @@
 const data =
-[ ["Passage de Venus",1874,"P.J.C. Janssen","x","x"
-],["Dzing. Boom. Boom!",1877,"Émile Reynaud","x","x"
-],["La Rosace Magique",1877,"Émile Reynaud","x","x"
-],["Skipping Rope",1877,"Émile Reynaud","x","x"
-],["The Tight-rope Dance",1877,"Émile Reynaud","x","x"
-],["Le singe musicien",1878,"Émile Reynaud","x","x"
-],["Les Chiens Savants",1878,"Émile Reynaud","x","x"
-],["Sallie Gardner at a Gallop",1878,"Eadweard Muybridge","x","x"
+[ ["Passage de Venus",1874,"P.J.C. Janssen","https://en.wikipedia.org/wiki/Passage_de_V%C3%A9nus",""
+],["Dzing. Boom. Boom!",1877,"Émile Reynaud","",""
+],["La Rosace Magique",1877,"Émile Reynaud","",""
+],["Skipping Rope",1877,"Émile Reynaud","",""
+],["The Tight-rope Dance",1877,"Émile Reynaud","",""
+],["Le singe musicien",1878,"Émile Reynaud","",""
+],["Les Chiens Savants",1878,"Émile Reynaud","",""
+],["Sallie Gardner at a Gallop",1878,"Eadweard Muybridge","https://en.wikipedia.org/wiki/The_Horse_in_Motion","https://upload.wikimedia.org/wikipedia/commons/0/0b/Eadweard_Muybridge-Sallie_Gardner_1878.jpg"
 ],["Athlete Swinging a Pick",1881,"Eadweard Muybridge","x","x"
 ],["Skeleton of Horse",1881,"Eadweard Muybridge","x","x"
 ],["The 1882 Transit of Venus",1882,"David Peck Todd","x","x"
@@ -58,16 +58,18 @@ const data =
 ],["Leisurely Pedestrians, Open Topped Buses and Hansom Cabs with Trotting Horses",1889,"William Friese-Greene","x","x"
 ] ];
 let content = "";
-for (let i = 0; i < data.length; i++) {content +=
-'<div>' +
-  '<img src="' + data[i][4] + '">' +
-  '<section>' +
-    '<p>' + data[i][0] + '</p>' +
-    '<p>' + data[i][1] + '</p>' +
-    '<p>' + data[i][2] + '</p>' +
-    '<a href="https://www.google.com/search?q=' + data[i][0] + ' (' + data[i][1] + ') Wikipedia" target="_blank">Google</a><br>' +
-    '<a href="' + data[i][3] + '" target="_blank">Wikipedia</a>' +
-  '</section>' +
-'</div>';
-};
+for (let i = 0; i < data.length; i++) {
+  if (data[i][4] != "") {content +=
+    '<div>' +
+      '<img src="' + data[i][4] + '">' +
+      '<section>' +
+        '<p>' + data[i][0] + '</p>' +
+        '<p>' + data[i][1] + '</p>' +
+        '<p>' + data[i][2] + '</p>' +
+        '<a href="https://www.google.com/search?q=' + data[i][0] + ' (' + data[i][1] + ') Wikipedia" target="_blank">Google</a><br>' +
+        '<a href="' + data[i][3] + '" target="_blank">Wikipedia</a>' +
+      '</section>' +
+    '</div>';
+  }
+}
 document.getElementById("body").innerHTML = content;
