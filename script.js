@@ -1,5 +1,5 @@
 const data =
-[ ["Passage de Venus",1874,"P.J.C. Janssen","",""
+[ ["Passage de Venus",1874,"P.J.C. Janssen","https://en.wikipedia.org/wiki/Passage_de_V%C3%A9nus","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/1874_Pierre_Jules_C%C3%A9sar_Janssen_-_Passage_de_Venus.webm/220px--1874_Pierre_Jules_C%C3%A9sar_Janssen_-_Passage_de_Venus.webm.jpg"
 ],["Dzing. Boom. Boom!",1877,"Émile Reynaud","",""
 ],["La Rosace Magique",1877,"Émile Reynaud","",""
 ],["Skipping Rope",1877,"Émile Reynaud","",""
@@ -16,8 +16,8 @@ for (let i = 0; i < data.length; i++) {content +=
     '<p>' + data[i][0] + '</p>' +
     '<p>' + data[i][1] + '</p>' +
     '<p>' + data[i][2] + '</p>' +
-    '<a href="https://www.google.com/search?q=' + data[i][0] + ' (' + data[i][1] + ') Wikipedia" target="_blank">Wikipedia</a><br>' +
-    '<a href="' + data[i][3] + '" target="_blank">Link</a>' +
+    '<a href="https://www.google.com/search?q=' + data[i][0] + ' (' + data[i][1] + ') Wikipedia" target="_blank">Google</a><br>' +
+    '<a href="' + data[i][3] + '" target="_blank">Wikipedia</a>' +
   '</section>' +
 '</div>';
 };
