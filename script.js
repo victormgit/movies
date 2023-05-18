@@ -1,0 +1,8 @@
+],["Passage de Venus",1874,"P.J.C. Janssen","",""
+],["Dzing. Boom. Boom!",1877,"Émile Reynaud","",""
+],["La Rosace Magique",1877,"Émile Reynaud","",""
+],["Skipping Rope",1877,"Émile Reynaud","",""
+],["The Tight-rope Dance",1877,"Émile Reynaud","",""
+],["Le singe musicien",1878,"Émile Reynaud","",""
+],["Les Chiens Savants",1878,"Émile Reynaud","",""
+],["Sallie Gardner at a Gallop",1878,"Eadweard Muybridge | Stars: Gilbert Domm, Sallie Gardner","",""
