@@ -1,4 +1,6 @@
-body {font: 10px monospace;}
+body {
+  font: 10px monospace;
+}
 div {
   float: left;
   width: 110px;
@@ -23,5 +25,6 @@ p:first-child {
   font-weight: bold;
 }
 p:nth-child(2) {
-  color: red; font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
